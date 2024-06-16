@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root {
+    --cor01: #ffffff;
+    --cor02: #000000;
+    --cor03: #333333;
+    --cor04: #00000079;
+    --cor05: #00000083;
+
+    --fonte01: Verdana, Arial, Helvetica, sans-serif;
+    --fonte02: 'Sriracha', cursive;
+    --fonte03: 'Passion One', cursive;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-size: 1em;
+}
+
+body {
+    min-height: 100vh;
+    font-family: var(--fonte01);
+    background-color: var(--cor01);
+}
+
+header {
+    background-color: var(--cor02);
+    color: var(--cor01);
+    text-align: center;
+}
+
+h1 {
+    font-family: var(--fonte03);
+    font-variant: small-caps;
+    font-size: 10vw;
+    padding-top: 50px;
+}
+
+header>p {
+    padding-bottom: 50px;
+}
+
+a {
+    color: var(--cor01);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 10vh 0px 10vh 30px;
+    line-height: 2em;
+    font-family: var(--fonte02);
+    font-size: 3.5vw;
+}
+
+section>p {
+    padding-bottom: 2em;
+}
+
+section.normal {
+    background-color: var(--cor01);
+    color: var(--cor02);
+}
+
+section.imagem {
+    background-color: var(--cor03);
+    color: var(--cor01);
+    box-shadow: inset 6px 6px 13px 0px var(--cor04);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section#img01 {
+    background-image: url('https://professorguanabara.github.io/projeto-cordel/imagens/background001.jpg');
+    background-position: right center;
+
+}
+
+section.imagem>p {
+    display: inline-block;
+    padding: 5px;
+    background-color: var(--cor05);
+    text-shadow: 1px 1px 0px var(--cor02);
+}
+
+section#img02{
+    background-image: url('https://professorguanabara.github.io/projeto-cordel/imagens/background002.jpg');
+
+}
+
+footer{
+    background-color: var(--cor02);
+    color: var(--cor01);
+    text-align: center;
+    padding: 10px;
+}
