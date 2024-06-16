@@ -81,7 +81,7 @@ section.imagem {
 }
 
 section#img01 {
-    background-image: url('/modulo-03/ex022/projeto-cordel/imagens/background001.jpg');
+    background-image: url('../imagens/background001.jpg');
     background-position: right center;
 
 }
@@ -94,7 +94,7 @@ section.imagem>p {
 }
 
 section#img02 {
-    background-image: url('/modulo-03/ex022/projeto-cordel/imagens/background002.jpg');
+    background-image: url('../imagens/background002.jpg');
 }
 
 footer {
