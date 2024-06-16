@@ -22,6 +22,7 @@
     font-size: 1em;
 }
 
+html,
 body {
     min-height: 100vh;
     font-family: var(--fonte01);
@@ -34,7 +35,7 @@ header {
     text-align: center;
 }
 
-h1 {
+header>h1 {
     font-family: var(--fonte03);
     font-variant: small-caps;
     font-size: 10vw;
@@ -80,7 +81,7 @@ section.imagem {
 }
 
 section#img01 {
-    background-image: url('https://professorguanabara.github.io/projeto-cordel/imagens/background001.jpg');
+    background-image: url('/modulo-03/ex022/projeto-cordel/imagens/background001.jpg');
     background-position: right center;
 
 }
@@ -92,12 +93,11 @@ section.imagem>p {
     text-shadow: 1px 1px 0px var(--cor02);
 }
 
-section#img02{
-    background-image: url('https://professorguanabara.github.io/projeto-cordel/imagens/background002.jpg');
-
+section#img02 {
+    background-image: url('/modulo-03/ex022/projeto-cordel/imagens/background002.jpg');
 }
 
-footer{
+footer {
     background-color: var(--cor02);
     color: var(--cor01);
     text-align: center;
