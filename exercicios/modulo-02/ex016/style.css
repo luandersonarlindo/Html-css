@@ -1,14 +1,14 @@
 @charset "UTF-8";
 
-*{
+* {
     font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
-    background-image: linear-gradient(to right,#00ffea,#486966);
+    background-image: linear-gradient(to right, #00ffea, #486966);
 }
 
-main{
+main {
     background-color: white;
     border-radius: 10px;
     box-shadow: 5px 5px 15px #2d414085;
@@ -17,16 +17,16 @@ main{
     margin: auto;
 }
 
-h1{
+h1 {
     color: #BD2A2E;
     text-align: center;
     text-shadow: 1px 1px 2px #838383b8;
 }
 
-h2{
+h2 {
     color: #3B3936;
 }
 
-p{
+p {
     text-align: justify;
 }

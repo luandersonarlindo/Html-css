@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,35 +13,43 @@
             :: = pseudo-element
             >  = clildren
         */
-        body{
+        body {
             font-family: Arial, Helvetica, sans-serif;
         }
-        a{
+
+        a {
             color: red;
             text-decoration: none;
             font-weight: bold;
         }
-        a:visited{
+
+        a:visited {
             color: darkred;
         }
-        a:hover{
+
+        a:hover {
             color: black;
             text-decoration: underline;
         }
-        a:active{
+
+        a:active {
             color: yellow;
         }
-        .especial{
+
+        .especial {
             background-color: rgb(255, 141, 141);
         }
-        .especial::before{
+
+        .especial::before {
             content: '→ ';
         }
-        .especial::after{
+
+        .especial::after {
             content: ' ←';
         }
     </style>
 </head>
+
 <body>
     <h1>Personalizando Links</h1>
     <ul>
@@ -49,4 +58,5 @@
         <li><a href="https://cursoemvideo.com" class="especial">Site do CursoemVideo</a></li>
     </ul>
 </body>
+
 </html>
