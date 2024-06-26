@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        caption {
+            background-color: gray;
+            font-size: 1.2em;
+            font-weight: bold;
+            padding: 10px;
+            color: white;
+        }
+
+        td,
+        th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        thead,
+        tfoot {
+            background-color: #303030;
+            color: white;
+        }
+
+        tbody>tr:nth-child(even) {
+            background-color: gray;
+            color: white;
+        }
+
+        div#container{
+            overflow-x: auto;
+        }        
+    </style>
+</head>
+<body>
+    <h1>Tabelas em telas pequenas</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A provident dolor, mollitia aliquid alias voluptatibus incidunt sunt consequuntur accusamus voluptates, voluptatum distinctio! Odio ipsam voluptatibus atque perspiciatis expedita eius eveniet?</p>
+    <div id="container">
+        <table>
+            <caption>Tabelas responsivas</caption>
+            <tr>
+                <th>Produtos</th>
+                <th>JAN</th>
+                <th>FEV</th>
+                <th>MAR</th>
+                <th>ABR</th>
+                <th>MAI</th>
+                <th>JUN</th>
+                <th>JUL</th>
+                <th>AGO</th>
+                <th>SET</th>
+                <th>OUT</th>
+                <th>NOV</th>
+                <th>DEZ</th>
+            </tr>
+            <tr>
+                <td>TV</td>
+                <td>01</td>
+                <td>02</td>
+                <td>03</td>
+                <td>04</td>
+                <td>05</td>
+                <td>06</td>
+                <td>07</td>
+                <td>08</td>
+                <td>09</td>
+                <td>10</td>
+                <td>11</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>MESA</td>
+                <td>01</td>
+                <td>02</td>
+                <td>03</td>
+                <td>04</td>
+                <td>05</td>
+                <td>06</td>
+                <td>07</td>
+                <td>08</td>
+                <td>09</td>
+                <td>10</td>
+                <td>11</td>
+                <td>12</td>
+            </tr>
+        </table>
+    </div>
+    
+</body>
+</html>
