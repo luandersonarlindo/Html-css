@@ -3,47 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Posição dos Fundos</title>
+    <title>Fundo</title>
     <style>
-        div.bloco {
-            background-image: url('imagens/wallpaper003.jpg');
-            height: 200px;
-            border: 1px solid black;
-            border-radius: 20px;
-            margin: 10px;
+        body {
+            background-color: rgb(255, 255, 255);
+            font: 13pt Arial;
+            color: black;
         }
 
-        div#q1 {
+        div { 
+            width: 90%;
+            height: 400px;
+            background-color: lightgray;
+            background-image: url('imagens/wallpaper003.jpg');
+            border: 1px solid black;
+        }
+
+        div#area001 {
             background-position: left top;
         }
 
-        div#q2 {
-            background-position: left center;
-        }
-
-        div#q3 {
+        div#area002 {
             background-position: right bottom;
         }
 
-        div#q4 {
-            background-position: center center;
+        div#area003 {
+            background-position: center top;
         }
 
+        div#area004 {
+            background-position: center center;
+        }
     </style>
 </head>
 <body>
-    <div class="bloco" id="q1">
+    <h1>Posição de um background</h1>
 
-    </div>
-    <div class="bloco" id="q2">
-
-    </div>
-    <div class="bloco" id="q3">
-
-    </div>
-    <div class="bloco" id="q4">
-
-    </div>
-    
+    <h2>background-position: left top;</h2>
+    <div id="area001"></div>
+    <h2>background-position: right bottom;</h2>
+    <div id="area002"></div>
+    <h2>background-position: center top;</h2>
+    <div id="area003"></div>
+    <h2>background-position: center center;</h2>
+    <div id="area004"></div>
 </body>
 </html>
