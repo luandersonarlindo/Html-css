@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+@import url('style.css');
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+    section#login {
+        max-width: 800px;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    section#login>div#imagem {
+        display: block;
+        width: 50%;
+        min-height: 500px;
+    }
+
+    section#login>div#formulario {
+        width: 50%;
+        padding: 40px 32px;
+    }
+
+    div#formulario>h1 {
+        font-size: 1.5rem;
+    }
+
+    div#formulario>p {
+        font-size: 0.9rem;
+    }
+}
+
+/* Desktop */
+@media screen and (min-width: 1024px) {
+    section#login {
+        max-width: 900px;
+    }
+
+    section#login>div#imagem {
+        background-position: right;
+        min-height: 550px;
+    }
+
+    section#login>div#formulario {
+        padding: 48px 40px;
+    }
+
+    div#formulario>h1 {
+        font-size: 1.75rem;
+    }
+
+    div#formulario>p {
+        font-size: 1rem;
+    }
+
+    form>div.campo {
+        height: 48px;
+    }
+
+    form>input[type="submit"] {
+        height: 48px;
+        font-size: 0.9375rem;
+    }
+}

@@ -1,0 +1,178 @@
+@charset "UTF-8";
+
+/* Mobile First */
+@media screen and (max-width: 767px) {
+    header>h1 {
+        font-size: 1.5em;
+    }
+
+    header>p {
+        font-size: 1em;
+        padding: 10px;
+    }
+
+    nav {
+        text-align: center;
+    }
+
+    nav>a {
+        display: block;
+        padding: 12px;
+        margin: 5px 10px;
+    }
+
+    main {
+        width: 90vw;
+        padding: 15px;
+    }
+
+    main h1 {
+        font-size: 1.5em;
+    }
+
+    main h2 {
+        font-size: 1.2em;
+    }
+
+    main p {
+        font-size: 0.95em;
+        line-height: 1.8em;
+    }
+
+    div.video {
+        width: 91vw;
+    }
+
+    aside>ul {
+        columns: 1;
+    }
+
+    @media print {
+
+        /* Configurações para impressão */
+        * {
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        header,
+        nav,
+        aside,
+        footer {
+            display: none;
+        }
+
+        main {
+            width: 90vw;
+            margin: auto;
+            box-shadow: none;
+        }
+
+        main h1,
+        main h2 {
+            color: black;
+        }
+    }
+
+    /* Tablet */
+    @media screen and (min-width: 768px) and (max-width: 992px) {
+        header>h1 {
+            font-size: 3.5em;
+        }
+
+        header>p {
+            font-size: 1.4em;
+        }
+
+        nav {
+            text-align: left;
+            padding-left: 20px;
+        }
+
+        main {
+            width: 85vw;
+        }
+
+        main h1 {
+            font-size: 2em;
+        }
+
+        main h2 {
+            font-size: 1.5em;
+        }
+
+        aside>ul {
+            columns: 2;
+        }
+    }
+
+    /* Desktop */
+    @media screen and (min-width: 992px) {
+        header>h1 {
+            font-size: 4em;
+        }
+
+        header>p {
+            font-size: 1.5em;
+        }
+
+        nav {
+            text-align: left;
+            padding-left: 30px;
+        }
+
+        nav>a {
+            padding: 15px;
+        }
+
+        main {
+            width: 80vw;
+            max-width: 1000px;
+        }
+
+        main h1 {
+            font-size: 2.2em;
+        }
+
+        main h2 {
+            font-size: 1.6em;
+        }
+
+        main p {
+            font-size: 1.1em;
+            line-height: 2.2em;
+        }
+
+        aside>ul {
+            columns: 2;
+        }
+    }
+
+    /* Grandes telas */
+    @media screen and (min-width: 1200px) {
+        header>h1 {
+            font-size: 4.5em;
+        }
+
+        header>p {
+            font-size: 1.6em;
+        }
+
+        main {
+            width: 75vw;
+            max-width: 1200px;
+        }
+
+        main h1 {
+            font-size: 2.5em;
+        }
+
+        main h2 {
+            font-size: 1.8em;
+        }
+
+        main p {
+            font-size: 1.2em;
+            line-height: 2.5em;
+        }
+    }
+}
